@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times,serif;
+    font-size: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgb(212, 0, 255);
+    text-decoration: solid;
+    text-decoration-color: #3aff5b;
+}
+
+.container{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 90vh;
+    /* background: #b4ffd3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #25473f;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.calculator input{
+    border: 0;
+    outline: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.display{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px -5px 10px #172e24 , 5px 5px 10px #172e24;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #29af90;
+    border-radius: 90px;
+    box-shadow: -7px 7px 5px #173528, 7px -7px 5px #173528;
+}
+
+.intro input{
+    background-color: #29af90;
+    color: #172e24;
+    text-align: center;
+    flex: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 33px;
+    box-shadow: none;
+}
+
+.display input{
+    color: #173528;
+    text-align:right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    border: 0;
+    outline: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px #172e24 , 5px 5px 15px #172e24;
+    background: transparent;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 10px;
+}
+.operator{
+    color: #3aff5b;
+}
+
+.equal{
+    border:brown;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    background-color: #29af90;
+    color: #172e24;
+}
